@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:background="@drawable/my_background"
+    tools:context=".orderdetails.Total_bill">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:textSize="60sp"
+        android:text="Your total bill amount is "
+        />
+
+    <TextView
+        android:id="@+id/total_bill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:textSize="60sp"
+        android:text="₹ 1000"
+        />
+    <Button
+        android:id="@+id/paypal_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20sp"
+        android:text="Pay using PayPal"/>
+
+</LinearLayout>
